@@ -1,5 +1,11 @@
 # Prueba Técnica Inconcert:
 
+**Nombre:** Nicholson Ochoa
+**Correo:** nic8ag@yahoo.com  
+**Teléfono:** +57 3102915195  
+**GitHub:** [github.com/nsochoaga](https://github.com/nsochoaga)  
+**Fecha de entrega:** 8 de agosto de 2025
+
 ## Sección 1 : Sentencias SQL
 
 1.1. Consulta que liste, por cada agente, el número total de interacciones y la duración media de llamadas:
