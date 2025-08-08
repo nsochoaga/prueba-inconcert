@@ -36,6 +36,8 @@ SELECT    a.AgenteID,   a.Nombre,   COUNT(i.InteraccionID) AS TotalInteracciones
   - Se crean funciones auxiliares para crear, filtrar, marcar y resumir.
   - El código es modular, reutilizable y fácil de leer.
 
+Se encuentra el archivo en la ruta _js/lista_tareas.js_
+
 ```js
 // 1.  Clase Tarea (Tpítulo, prioridad, completada = false)
 class Tarea {
@@ -104,6 +106,8 @@ console.log(resumenTareas());
 
 ## Sección 3: Bloque completo de dialplan (Asterisk PBX)
 
+Se encuentra el archivo en la ruta - **asterisk/dialplan.conf**
+
 ```ini
 [from-trunk]
 exten => 900123456,1,Answer()                             ; 1. Contestar la llamada
@@ -124,6 +128,8 @@ exten => t,1,Playback(no-agentes)                         ; Si no marcan nada (t
 ```
 
 ## Sección 4: Script de python (Procesamiento de CSV, API REST, FTP/SFTP)
+
+Se encuentra el archivo en la ruta - **python/procesar_datos**
 
 ### Requerimientos:
 
